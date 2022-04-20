@@ -1,0 +1,15 @@
+ul, li {
+  list-style: none;
+}
+.btn.btn-primary{
+  border-width: 0;
+}
+#complete {
+  float: right;
+  background-color: green;
+  width: 100px;
+  border-color: green;
+}
+.main {
+  height: 60px
+}
