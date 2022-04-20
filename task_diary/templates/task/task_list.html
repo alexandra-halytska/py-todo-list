@@ -13,7 +13,7 @@
                 {% if task.status%} <b style="color: forestgreen">Done</b>
                     <a href="{% url "task:task-list" %}" class="btn btn-primary" style="float: right; width: 100px; background-color: gray">Undo</a>
                     {% else %} <b style="color: red">Not done</b>
-                    <a href="{% url "task:task-list" %}" class="btn btn-primary" style="float: right; width: 100px; background-color: green">Undo</a>
+                    <a href="{% url "task:task-list" %}" class="btn btn-primary" style="float: right; width: 100px; background-color: green">Add</a>
                 {% endif %}
                 </li>
                 <li>Created: {{ task.created_at }}</li>
